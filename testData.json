@@ -1,0 +1,993 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "valor_monetario",
+        "pattern": "[0-9]{1,2}\\.[0-9]{3}(\\,[0-9]{2})"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "pagamento",
+        "synonyms": [
+          "pagamento",
+          "pg",
+          "pgto"
+        ]
+      },
+      {
+        "value": "a vista",
+        "synonyms": [
+          "a vista",
+          "avista"
+        ]
+      },
+      {
+        "value": "a prazo",
+        "synonyms": [
+          "a prazo",
+          "aprazo"
+        ]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "ofereço r$ 120.000,00 à vista.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago 10 mil",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago 18.000 a vista.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "65.000 a vista",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago 105 mil a vista",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "aceita r$ 24.000,000?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "68000 a vista",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "faz r$ 36.000 avista? tenho um cliente para o carro.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "olá consigo chegar em 22.000,00.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "ola, carro que encontrei tenho interesse , trabalho com veículos, sou revendedor pago avista no ato o seu carro, você consegue chega em 22.000 minha oferta !!!!",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "30 mil à vista....aceitam?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "aceita uma carta de crédito no valor de r$ 47.500?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "entrega por 20.000,00?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "faz 27.000 ?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "faz 32.000 a vista, sem troca ?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "vcs aceitam proposta?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "bom dia  faz 47. 000 ?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "28mil a vista por carta de credito da porto seguro. aceita?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pagamento  a vista. 15.000,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "bom dia. consegue chegar nos 46 mil à vista?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "faz 12.500 em dinheiro? não precisa de garantia.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "bom dia. fecharia por 60000 ?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "bom dia fariam a vista, 53900 ?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "ofereço 14.000,00 no dinheiro",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "fecha por 24.000 à vista ?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber se a vista da pra fazer 8.500?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde! aceita 84.000 à vista?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pagamento à vista. valor da proposta r$ 37.500,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde. negociamos em cima de 55900 ?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "aceita 14 mil a vista??",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde!   13 mil a vista.aceita?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "aceita 29 mil a vista ?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago 20.000 no veiculo. como fica a transferencia. moro em firmino alves-ba",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde. faz 30 mil no carro?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "proposta 22000,00. o carro ainda está a venda?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago 30 mil a vista depois de dar uma olhada no carro",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "ofereço 50.000,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "proposta de 63.000,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "ola até 26000.000 podemos conversar",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pego o carro segunda feira por 50.000 no dinheiro",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "faz 17000 a vista?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "110.000.00 minha oferta",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "oi amigo boa tarde voce faz 62.000.00 nesse carro?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "fecha rs 18.000,00?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "proposta: pago avista 28.000,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "faz 47800,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "18.000 a vista",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "aceitaria 50000 a vista?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pgto. a/v r$ 10.500.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "r$46.500 subo ae buscar ele amanhã.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "avista 35.000",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "aceita r$ 36000.00.?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "entrada 6 mil",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "aceita r$8.200,00 a vista no debito?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago 17000,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "aceitaria 14 a vista?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "10.000 a vista ???",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "27 mil a vista",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "fecha em 25.000, a vista",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "bom dia! pago 30000,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago a vista 35 mil",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "ofereço 35.000. espero um retorno",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber dando 12.000 de entrada quantos sairia em 24x vezes aguardo resposta obrigado",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 60,
+            "end": 69,
+            "value": "24x vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "olá bom dia..como ficaria...o financiamento com uma entrada de 5.000 + 48×",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 71,
+            "end": 74,
+            "value": "48×",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "10 mil de entrada 36x de quanto as parcelas",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "dando 5mil de entrada e restante ficaria como em 48 ou 60 vezes???  valor de parcelas???",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 55,
+            "end": 63,
+            "value": "60 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "boa noite, tenho 8000 de entrada gostaria de saber quanto ficam as parcelas!",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "ola, aceita 2 mil de entrada e parcela o resto ?  e pro meu pai",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "olá, com r$10.000,00, qual o valor das parcelas? obrigado",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "olá, gostaria de saber se financia sem entrada, e quanto ficaria em 24x / 36x e 48x.",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 80,
+            "end": 83,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "financia sem entrada em 36 x ?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "36 x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "quero dar uma entrada de 13.000 , financiando o restante .",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "gostaria de dar uma entrada de 30.000 e pagar restante em no maximo em 36 meses ou 48 meses; gostaria que me enviasse valores de financiamento.",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "bom dia, quantos fica eu dando r$12.000,00 em 36x ou 48x",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 46,
+            "end": 49,
+            "value": "36x",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 53,
+            "end": 56,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia, dando r$12.000,00 de entra quanto fica em 36x?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 51,
+            "end": 54,
+            "value": "36x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "quero um simulaçao dando 22.000 de entrada e mais 36 ou 48 parcelas pode me passar por email como fica o financiamento.estarei no aguardo urgente",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "bom dia,quanto fica 16.000,00 financiado em 24 e 36 meses",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 49,
+            "end": 57,
+            "value": "36 meses",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia, dando 6000,00 de entrada, como ficariam as parcelas. favor verificar no satander grato carlos",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "60× e qual o mínimo de entrada?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "60×",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "olá bom dia, com entrada de cr$10.000,00, em 48 vezes qual o valor das parcelas?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 45,
+            "end": 53,
+            "value": "48 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "dou uma entrada de 10.000,00  quanto fica para financiar o restante em 48x ?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 71,
+            "end": 74,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia, se eu der entrada de r$ 10.000,00.  quanto fica o restante financiado em 48x.  cpf: 395.128.338-67",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 82,
+            "end": 85,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia! com 50% de entrada e o restante em 24x de quanto??",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 44,
+            "end": 47,
+            "value": "24x",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "50%",
+            "entity": "PORCENTAGEM_ENTRADA"
+          }
+        ]
+      },
+      {
+        "text": "dando 7 mil de entrada quanto que sairia as parcelas",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "entrada de 3.500 e parcelamento a combinar",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "3.500",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "oi bom dia... teria como fazer uma simulaçao de financiamento desse carro? entrada de r$ 8.000,00",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "bom dia, quanto ficaria ele sem entrada em 48x ???",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 43,
+            "end": 46,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "r$ 8.000,00 de entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "8.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "favor enviar simulação se possivel com essa entrada: 2.000,00 de entrada e 36x ou 48x obrigada",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 75,
+            "end": 78,
+            "value": "36x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "favor informar simulação se possível com a entrada abaixo: entrada: 2.000,00 36x ou 48x obrigada.",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 84,
+            "end": 87,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "tem que dar entrada? e quantas parcela e de quanto tenho  que fazer parcela  pequenas que cabe no meu bolso",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "bom dia! qual o valor de entrada para se ter um financiamento com parcelas de até r$470,00 deste veículo?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "qto consegue de financiamento nesse carro",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "qual o valor da entrada da pra fazer em 60 vezes ?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "60 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "entrada de 4.000",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "olá, tenho 15.000,00 de entrada quanto ficaria o resto",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "quero dar 15 mil de entrada. consegue deixar as parcelas em 1200,00",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 60,
+            "end": 67,
+            "value": "1200,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "6.000,00 de entrada o financiamento fica quanto?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber dando uma entrada de 15 mil reais e financiar o resto em 36x",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 75,
+            "end": 78,
+            "value": "36x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia.como ficaria as prestaçoes deste carro,com 3.000,00(tres mil de entrada)em 60 ou 48 meses.aguardo contato",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 89,
+            "end": 97,
+            "value": "48 meses",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "quanto fica as parcelas em 36x 48x 60x",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "36x",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "48x",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 35,
+            "end": 38,
+            "value": "60x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "gostaria de saber quais são as propostas de financiamento?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "quais são as propostas de financiamento?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "boa tarde. tenho 5mil de entrada e não posso pagar mais q 720 reais de parcela. qual seria a possibilidade de aquisição!",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "2 mil entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "olá, eu me interessei pelo veiculo, e gostaria de ter mais detalhes sobre o carro.                          se a documentação esta ok e se no caso de uma entrada de 5 mil reais, quanto ficariam as parcelas",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "boa tarde. tenho 5mil de entrada e não posso pagar mais q 720 reais de parcela. qual seria a possibilidade de aquisição!",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "oi, estou interessado neste veículo, e dou 4.000,00r$ de entrada. com esse valor de entrada ficaria de quanto as parcelas em 48x ?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 125,
+            "end": 128,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "gostaria de saber  valor de entrada e das parcelas",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "boa tarde, esse carro é vistoriado? quanto fica a parcela no financiamento?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "quero financiar",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "com r$40.000,00 de entrada qual seria o saldo financiado em 24, 36 e 48x. obrigado",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 69,
+            "end": 72,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia queria saber as formas de financiamento e valores. obrigada",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "tem como mandar para mim proposta sem entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "bom dia, gostaria de mais informações, em questão a financiamento. obrigada",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "quero comprar e financiar sem entrada.",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "dando 12 mil entrada fica quanto parcelado",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "entrada de 8 mil quanto fica a parcela?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "como e finaciamento,quantas vezes posso fazer, eu queria fazer sem entrada ,faz simulaçao tambem",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "quero comprar sem entrada financiamento itaú",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "gostaria de obter informações sobre o financiamento.",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "dando 5.000 de entrada quanto fica em 36 parcelas o financiamento?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 38,
+            "end": 49,
+            "value": "36 parcelas",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "5.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "com 9mil de entrada como ficaria as parcelas?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber o valor de entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "quero financiar com entrada de até 10 mil",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "olá com entrada de 5 mil quanto ficaria o financiamento?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "se financiar pelo banco itau em 48x tenho crédito pré aprovado me manda a ficha para por encher  com meus dados",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "boa noite gostaria de tentar financiar este veiculo",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber dando 10 mil de entrada quanto fica as parcelas em 48x ?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 69,
+            "end": 72,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "7.000 de entrada restante em 48 x",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "48 x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia, gostaria de comprar com entrada de r$20.000,00, e financiar o restante, por favor quero saber quanto fica o restnte em 36x, 48x e 60x.",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 139,
+            "end": 142,
+            "value": "60x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "quero ver o valor com entrada de 3.000",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "60% de entrada restante financiado",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "60%",
+            "entity": "PORCENTAGEM_ENTRADA"
+          }
+        ]
+      },
+      {
+        "text": "boa noite   me informe  como fica esse fiorino financiado pelo itau   eu tenho que dar quanto de entrada e as parcelas ficam quanto",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "entrada de 2 mil reais",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "olá tenho 12.000 para dar e financiar o resto.quanto fica com o computador de bordo.",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "qual valor fica em 60x sem entrada?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "dando 5 mil de entrada em 48 e 60x , quanto ficariam as prestacoes ?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "60x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "quanto de entrada pra chegar nesse valor de parcela ?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "consigo tirar com 5 de entrada?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "20 mil de entrada e o restante financiado",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "aceita 10 mil de entrada em 24x?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      }
+    ]
+  }
+}
