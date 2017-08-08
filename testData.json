@@ -34,27 +34,62 @@
       {
         "text": "ofereço r$ 120.000,00 à vista.",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "120.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pago 10 mil",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "10 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pago 18.000 a vista.",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "18.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "65.000 a vista",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "65.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pago 105 mil a vista",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "105 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "aceita r$ 24.000,000?",
@@ -64,12 +99,26 @@
       {
         "text": "68000 a vista",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "68000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "faz r$ 36.000 avista? tenho um cliente para o carro.",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "36.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "olá consigo chegar em 22.000,00.",
@@ -79,17 +128,38 @@
       {
         "text": "ola, carro que encontrei tenho interesse , trabalho com veículos, sou revendedor pago avista no ato o seu carro, você consegue chega em 22.000 minha oferta !!!!",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 136,
+            "end": 142,
+            "value": "22.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "30 mil à vista....aceitam?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "30 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "aceita uma carta de crédito no valor de r$ 47.500?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 43,
+            "end": 49,
+            "value": "47.500",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "entrega por 20.000,00?",
@@ -99,12 +169,26 @@
       {
         "text": "faz 27.000 ?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "27.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "faz 32.000 a vista, sem troca ?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "32.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "vcs aceitam proposta?",
@@ -119,7 +203,14 @@
       {
         "text": "28mil a vista por carta de credito da porto seguro. aceita?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "28mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pagamento  a vista. 15.000,00",
@@ -129,22 +220,50 @@
       {
         "text": "bom dia. consegue chegar nos 46 mil à vista?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "46 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "faz 12.500 em dinheiro? não precisa de garantia.",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "12.500",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "bom dia. fecharia por 60000 ?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "60000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "bom dia fariam a vista, 53900 ?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "53900",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "ofereço 14.000,00 no dinheiro",
@@ -154,17 +273,38 @@
       {
         "text": "fecha por 24.000 à vista ?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "24.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "gostaria de saber se a vista da pra fazer 8.500?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 42,
+            "end": 47,
+            "value": "8.500",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "boa tarde! aceita 84.000 à vista?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "84.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pagamento à vista. valor da proposta r$ 37.500,00",
@@ -174,32 +314,74 @@
       {
         "text": "boa tarde. negociamos em cima de 55900 ?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "55900",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "aceita 14 mil a vista??",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "14 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "boa tarde!   13 mil a vista.aceita?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "13 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "aceita 29 mil a vista ?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "29 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pago 20.000 no veiculo. como fica a transferencia. moro em firmino alves-ba",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "20.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "boa tarde. faz 30 mil no carro?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "30 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "proposta 22000,00. o carro ainda está a venda?",
@@ -209,7 +391,14 @@
       {
         "text": "pago 30 mil a vista depois de dar uma olhada no carro",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "30 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "ofereço 50.000,00",
@@ -224,27 +413,62 @@
       {
         "text": "ola até 26000.000 podemos conversar",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "26000.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pego o carro segunda feira por 50.000 no dinheiro",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "50.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "faz 17000 a vista?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "17000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "110.000.00 minha oferta",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "110.000.00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "oi amigo boa tarde voce faz 62.000.00 nesse carro?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "62.000.00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "fecha rs 18.000,00?",
@@ -259,32 +483,62 @@
       {
         "text": "faz 47800,00",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "47800,00",
+            "entity": ""
+          }
+        ]
       },
       {
         "text": "18.000 a vista",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "18.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "aceitaria 50000 a vista?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "50000",
+            "entity": ""
+          }
+        ]
       },
       {
-        "text": "pgto. a/v r$ 10.500.",
+        "text": "pgto. a/v r$ 10.500",
         "intent": "PROPOSTA",
-        "entities": []
-      },
-      {
-        "text": "r$46.500 subo ae buscar ele amanhã.",
-        "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "10.500",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "avista 35.000",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "35.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "aceita r$ 36000.00.?",
@@ -294,7 +548,14 @@
       {
         "text": "entrada 6 mil",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "6 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "aceita r$8.200,00 a vista no debito?",
@@ -314,17 +575,38 @@
       {
         "text": "10.000 a vista ???",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "10.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "27 mil a vista",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "27 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
-        "text": "fecha em 25.000, a vista",
+        "text": "fecha em 25.000 , a vista",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "25.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "bom dia! pago 30000,00",
@@ -334,7 +616,14 @@
       {
         "text": "pago a vista 35 mil",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "35 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "ofereço 35.000. espero um retorno",
@@ -350,6 +639,12 @@
             "end": 69,
             "value": "24x vezes",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "12.000",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -362,13 +657,32 @@
             "end": 74,
             "value": "48×",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 63,
+            "end": 68,
+            "value": "5.000",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
       {
         "text": "10 mil de entrada 36x de quanto as parcelas",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "10 mil",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "36x",
+            "entity": "PARCELAS"
+          }
+        ]
       },
       {
         "text": "dando 5mil de entrada e restante ficaria como em 48 ou 60 vezes???  valor de parcelas???",
@@ -379,18 +693,38 @@
             "end": 63,
             "value": "60 vezes",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "5mil",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
       {
         "text": "boa noite, tenho 8000 de entrada gostaria de saber quanto ficam as parcelas!",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "8000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "ola, aceita 2 mil de entrada e parcela o resto ?  e pro meu pai",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "2 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "olá, com r$10.000,00, qual o valor das parcelas? obrigado",
@@ -405,6 +739,18 @@
             "start": 80,
             "end": 83,
             "value": "48x",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 68,
+            "end": 71,
+            "value": "24x",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 74,
+            "end": 77,
+            "value": "36x",
             "entity": "PARCELAS"
           }
         ]
@@ -424,7 +770,14 @@
       {
         "text": "quero dar uma entrada de 13.000 , financiando o restante .",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "13.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "gostaria de dar uma entrada de 30.000 e pagar restante em no maximo em 36 meses ou 48 meses; gostaria que me enviasse valores de financiamento.",
@@ -986,6 +1339,708 @@
       {
         "text": "aceita 10 mil de entrada em 24x?",
         "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "boa noite tenho um fox 2006 duas portas com ar e direcao se tiver interresse podemos conversar!",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "4 mil de entrada. faz o restante no cartão?",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "4 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "gostaria de trocar no meu veículo, preciso de uma volta, quero um carro mais em conta, tenho um voyage.boa noite",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "o que eu posso oferecer é r$ 45.000,00 reais no dinheiro",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "ola gostaria de saber mais detalhes, tenho 10 mil em maos, favor retornar email",
+        "intent": "DUVIDA",
+        "entities": [
+          {
+            "start": 43,
+            "end": 49,
+            "value": "10 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "qual o endereço pra ver o carro?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia,se possivel por favor me mande um calculo com r$ 15000,00 e saldo em 48 vezes.aguardo e obrigado.gilson 94890-8911",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 77,
+            "end": 85,
+            "value": "48 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "aceita troca num ford ka 2009 + banco de couro? e mais 9 mil na mão.  restante financiado. sou de outra cidade, interior de mg , cataguases.  estou disposta a negociar.",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 55,
+            "end": 60,
+            "value": "9 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "bom dia, pagamento à vista consigo mais algum desconto",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "proposta com troca, um sandero 2011/2011 1.0 16v completo e o restante financiado",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "boa tarde gostaria de saber se esse carro é automático?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia... existe a possibilidade em troca de veiculo ???",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "olá, bruno tenho um cielo sedan 2011  para entrada e financiar em 36x, pode ser?? foi a melhor informação de um veículo q já li na minha vida.  fixo- 5897-9911",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 66,
+            "end": 69,
+            "value": "36x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia! pega um vectra 97 na troca?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tenho interesse no veiculo, porem tenho um carro voyage 1.0 trend para dar na troca ano 2010/2011 quais são as propostas 78.000km rodados. só não tem ar condicionado otimo estado de conservação unico dono, qual seria o valor de troca, sou de joão pinheiro aguardo resposta.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "olá gostaria de financiar em nome de minha empresa. é possivel? qual a documentacao pra envio pra testarmos a aprovacao?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "temos interesse na maxicargo 12 m3. precisamos mais informações, de preço, e se é pronta entrega.condições de pagto.obrigado",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa noite aceita 27.500 obrigando",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "27.500",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "quero mais informações.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qual a média de consumo desse veículo",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ola, ainda rsta a venda? gostaria de ir ver o carro",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa noite,gostaria de mais informações sobre o veículo.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ainda a venda? ate qhe horas posso ver o carro amanha?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "olá, tenho interesse neste hyundai hb20 1.0 comfort plus e gostaria de receber mais informações.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber sobre o veículo",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ja vendeu a toyota?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "existe a possibilidade de baixar esse valor?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quanto é o preço para produtor rural?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "me interessa, ainda esta com ela",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber a placa do carro.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de obter mais informações sobre esse carro. minha necessidade: 1.0 ar e  direção",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "estou interessado neste caso, porém o valor está praticamente do novo 57990, cujas taxas são melhores, no que podemos melhorar?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ainda esta a venda este veiculo?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qual o endereço pra ver o carro?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "esse é o preço maximo? tem como abaixar mais?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "veículo ainda está disponível? onde fica a agencia?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "olá tenho interesse, qual valor consegui chegar se for a vista?!",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "carro possui algum tipo de sinistro, a vista qual valor consegui chegar?!",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "mande fotos do cofre e do interior por gentileza.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "olá gostaria de saber as formas de pagamento",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia ! este veiculo esta disponivel ? qual km?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "cambio de 6 marchas?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "senhores, o fox já foi vendido?? se não foi eu tenho interesse!",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "aceita troca  honda civic lxr 2.0 completo 13/14",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "qual menor preço que da pra fazer neste carro e onde posso ver?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tenho interesse, é agência ou particular?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qual o menor valor do carro ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia  à vista teria algum desconto? obrigada",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia, comprando o carro à vista, ganho a transferência?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia, por favor, este carro já foi vendido? obrigada priscila",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "eu me entereço no carro, de onde qual cidade esta o carro.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "eu me entereço no carro, de onde qual cidade esta o carro. quero da uma entrada.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia, por favor, este carro já foi vendido? obrigada,",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ainda tem?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia! aceita r$ 100.000,00? obrigado, rodrigo",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber mais sobre a forma de pagamento?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "modelo com direcao hidráulica?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quero. saber quanto cunsta, e se vale a pena ir até aí.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ola gostaria de saber qual o minimo que faz neste carro",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "aceita troca? financia por qual banco?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia. a quilometragem está correta?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quero mais informação sobre esse carro como kilometragem estado da carroceria tem trio eletrico,etc.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia.. quanto consegue fazer avista sem troca. abraço",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qua o estado de origem do veículo. qual a situação interna de lataria?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ele e a álcool? vinil, lata, motor, suspensão, calotas como estão? e qual o minimo que da para fazer?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ele é basico???",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quero saber se vcs aceitam carta de crédito gm.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qual km dele? qual cidade è",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa noite! esse carro tem alguma revisão feita na autorizada ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa noite!  me interessei no veiculo, qual o menor valor avista",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber se pega um nissan sentra 2006 completo automatico na troca.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia. ele não tem vidro elétrico?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ele é completo?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "onde fica em jandira?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia. a quilometragem está correta?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "aceita carta de credito?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "vocês teriam a versão palio sporting??? qual cor??? obrigado.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "13/13? qual km? qts lugares",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde! qual a km do carro?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "prezado, esta pajero é a de 05 ou 07 lugares?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "estou a procura de um gol vc teria um mais em conta ai na loja",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qual o km ?negocia o valor a vista ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "veiculo ainda esta a venda? estou interessado no carro!",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa noite! esse carro tem alguma revisão feita na autorizada ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa noite!  me interessei no veiculo, qual o menor valor avista",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "vocês aceitam veículo no negócio??? tenho interesse no carro",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qual menor preço possivel a vista? obrigado",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "onde fica em jandira?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber se vc faz troca tbm, tenho uma uno 2011,básica com gnv.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tem sentral multimídia",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "vcs aceitam usado na troca?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "prezado, esta pajero é a de 05 ou 07 lugares?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "vc consegue melhorar esse preço avista?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde, vcs aceitam proposta?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "valor à vista, no  dinheiro é concedido algum desconto?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde pega um onix 13/13 na troca",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tenho um celta 2011 completo 4 portas spirit. quanto ficaria dando ele de entrada ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber a km do veiculo e como faço para ver o carro ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde, aceita uma strada 2012? o restante em dinheiro",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "ele foi de um único dono?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "todas as revisões já foram feitas?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "olá, tenho interesse neste ford ecosport xlt 2.0 16v (flex) (aut) e gostaria de receber mais informações.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ola gostaria de saber por qto entra meu carro eu tenho um ford fiesta muito completo hatch class 1.0 ano 2011 prata sou segundo dono manual chave reserva pneus novos na troca por este livina preferia receber msn no meu e mail obrigado",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ola, gostaria de saber se aceitam um uno mille economy 1.0, duas portas basico com 102.000 km como entrada ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "amigo, pega um civic lxs  aut. 2008 no negocio?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "aceita um honda city 2012 automático na troca?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quais critérios e valores p financiamento total deste automóvel?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber sobre financiamento.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qual a avaliação aproximada de um clio sedan 07/08 1.0 16v hi-flex e gnv para troca nesse sandero?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "oi tenho uma passat wariant 2010 tsi turbo, nova quanto de volta? mauro",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia aceita troca, tenho uma santa fe gls 3.5 vc tiptronic, 2012",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia , aceita veiculo como parte de pagamento ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde ,vc pega um gol g3 como entrada?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde. você pega um gol 91/92 na troca  gol motor cht 1.6 novo lataria todo alinhado no mesmo valor . novo .",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde meu amigo! aceita carta da disal no valor de 45mil e restante em dinheiro?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "quanto quer a vista no a3 1.8 20v turbo 2003? sou de pinheiral -rj. interior. região sul fluminense.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tenho um palio completo motor fire 2008 finaciado em 48 falta 23 quanto paga na troca da saveiro",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tenho tiguan branca, teto, 2013 unico dono. aceita na troca",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia tenho uma ranger xlt 2008/09 4x4 diesel tem interesse em troca",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tenho um idea 2013 automatizado vocês trocam?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "esse onix tem ar quente e ar condicionado?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia tenho uma ranger xlt 2008/09 4x4 diesel tem interesse em troca",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia, me intereso pelo veiculo qual a forma de fianciamento ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "esse onix tem ar quente e ar condicionado?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tenho um celta 2012 ls  aceita troca?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa tarde! aceita carta de crédito contemplada de consórcio da disal?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "qual o km do carro? vocês aceitam troca em um uno mille way economy 2 portas 2011/2012?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostei desse carro como faço pra compralo",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia. ele não tem vidro elétrico?",
+        "intent": "DUVIDA",
         "entities": []
       }
     ]
