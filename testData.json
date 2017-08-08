@@ -488,7 +488,7 @@
             "start": 4,
             "end": 12,
             "value": "47800,00",
-            "entity": ""
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -512,7 +512,7 @@
             "start": 10,
             "end": 15,
             "value": "50000",
-            "entity": ""
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
