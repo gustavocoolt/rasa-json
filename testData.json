@@ -1364,11 +1364,6 @@
         "entities": []
       },
       {
-        "text": "",
-        "intent": "",
-        "entities": []
-      },
-      {
         "text": "o que eu posso oferecer é r$ 45.000,00 reais no dinheiro",
         "intent": "PROPOSTA",
         "entities": []
@@ -1529,11 +1524,6 @@
         "entities": []
       },
       {
-        "text": "",
-        "intent": "",
-        "entities": []
-      },
-      {
         "text": "me interessa, ainda esta com ela",
         "intent": "DUVIDA",
         "entities": []
@@ -1545,11 +1535,6 @@
       },
       {
         "text": "gostaria de obter mais informações sobre esse carro. minha necessidade: 1.0 ar e  direção",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "estou interessado neste caso, porém o valor está praticamente do novo 57990, cujas taxas são melhores, no que podemos melhorar?",
         "intent": "DUVIDA",
         "entities": []
       },
@@ -1581,11 +1566,6 @@
       {
         "text": "carro possui algum tipo de sinistro, a vista qual valor consegui chegar?!",
         "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "",
-        "intent": "",
         "entities": []
       },
       {
