@@ -522,12 +522,26 @@
       {
         "text": "fecha rs 18.000,00?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "18.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "proposta: pago avista 28.000,00",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "28.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "faz 47800,00",
@@ -607,14 +621,28 @@
         ]
       },
       {
-        "text": "aceita r$8.200,00 a vista no debito?",
+        "text": "aceita r$ 8.200,00 a vista no debito?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "8.200,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pago 17000,00",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "17000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "aceitaria 14 a vista?",
@@ -660,7 +688,14 @@
       {
         "text": "bom dia! pago 30000,00",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "30000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "pago a vista 35 mil",
@@ -776,9 +811,16 @@
         ]
       },
       {
-        "text": "olá, com r$10.000,00, qual o valor das parcelas? obrigado",
+        "text": "olá, com r$ 10.000,00 , qual o valor das parcelas? obrigado",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "10.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "olá, gostaria de saber se financia sem entrada, e quanto ficaria em 24x / 36x e 48x.",
@@ -829,25 +871,50 @@
         ]
       },
       {
-        "text": "gostaria de dar uma entrada de 30.000 e pagar restante em no maximo em 36 meses ou 48 meses; gostaria que me enviasse valores de financiamento.",
-        "intent": "FINANCIAMENTO",
-        "entities": []
-      },
-      {
-        "text": "bom dia, quantos fica eu dando r$12.000,00 em 36x ou 48x",
+        "text": "gostaria de dar uma entrada de 30.000 e pagar restante em no maximo em 36 meses ou 48 meses ; gostaria que me enviasse valores de financiamento.",
         "intent": "FINANCIAMENTO",
         "entities": [
           {
-            "start": 46,
-            "end": 49,
+            "start": 31,
+            "end": 37,
+            "value": "30.000",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 71,
+            "end": 79,
+            "value": "36 meses",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 83,
+            "end": 91,
+            "value": "48 meses",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "bom dia, quantos fica eu dando r$ 12.000,00 em 36x ou 48x",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 47,
+            "end": 50,
             "value": "36x",
             "entity": "PARCELAS"
           },
           {
-            "start": 53,
-            "end": 56,
+            "start": 54,
+            "end": 57,
             "value": "48x",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 34,
+            "end": 43,
+            "value": "12.000,00",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -877,6 +944,12 @@
             "end": 57,
             "value": "36 meses",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "16.000,0",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -898,14 +971,20 @@
         ]
       },
       {
-        "text": "olá bom dia, com entrada de cr$10.000,00, em 48 vezes qual o valor das parcelas?",
+        "text": "olá bom dia, com entrada de cr$ 10.000,00, em 48 vezes qual o valor das parcelas?",
         "intent": "FINANCIAMENTO",
         "entities": [
           {
-            "start": 45,
-            "end": 53,
+            "start": 46,
+            "end": 54,
             "value": "48 vezes",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "10.000,00",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -971,7 +1050,14 @@
       {
         "text": "oi bom dia... teria como fazer uma simulaçao de financiamento desse carro? entrada de r$ 8.000,00",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 89,
+            "end": 97,
+            "value": "8.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "bom dia, quanto ficaria ele sem entrada em 48x ???",
@@ -1027,9 +1113,16 @@
         "entities": []
       },
       {
-        "text": "bom dia! qual o valor de entrada para se ter um financiamento com parcelas de até r$470,00 deste veículo?",
+        "text": "bom dia! qual o valor de entrada para se ter um financiamento com parcelas de até r$ 470,00 deste veículo?",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 85,
+            "end": 91,
+            "value": "470,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "qto consegue de financiamento nesse carro",
@@ -1051,7 +1144,14 @@
       {
         "text": "entrada de 4.000",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "4.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "olá, tenho 15.000,00 de entrada quanto ficaria o resto",
@@ -1080,7 +1180,14 @@
       {
         "text": "6.000,00 de entrada o financiamento fica quanto?",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "6.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "gostaria de saber dando uma entrada de 15 mil reais e financiar o resto em 36x",
@@ -1095,14 +1202,20 @@
         ]
       },
       {
-        "text": "bom dia.como ficaria as prestaçoes deste carro,com 3.000,00(tres mil de entrada)em 60 ou 48 meses.aguardo contato",
+        "text": "bom dia.como ficaria as prestaçoes deste carro,com 3.000,00 (tres mil de entrada)em 60 ou 48 meses.aguardo contato",
         "intent": "FINANCIAMENTO",
         "entities": [
           {
-            "start": 89,
-            "end": 97,
+            "start": 90,
+            "end": 98,
             "value": "48 meses",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "3.000,00",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -1161,14 +1274,20 @@
         "entities": []
       },
       {
-        "text": "oi, estou interessado neste veículo, e dou 4.000,00r$ de entrada. com esse valor de entrada ficaria de quanto as parcelas em 48x ?",
+        "text": "oi, estou interessado neste veículo, e dou 4.000,00 r$ de entrada. com esse valor de entrada ficaria de quanto as parcelas em 48x ?",
         "intent": "FINANCIAMENTO",
         "entities": [
           {
-            "start": 125,
-            "end": 128,
+            "start": 126,
+            "end": 129,
             "value": "48x",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 43,
+            "end": 51,
+            "value": "4.000,00",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -1398,11 +1517,6 @@
         "entities": []
       },
       {
-        "text": "boa noite tenho um fox 2006 duas portas com ar e direcao se tiver interresse podemos conversar!",
-        "intent": "PROPOSTA",
-        "entities": []
-      },
-      {
         "text": "4 mil de entrada. faz o restante no cartão?",
         "intent": "PROPOSTA",
         "entities": [
@@ -1413,11 +1527,6 @@
             "entity": "VALOR_MONETARIO"
           }
         ]
-      },
-      {
-        "text": "gostaria de trocar no meu veículo, preciso de uma volta, quero um carro mais em conta, tenho um voyage.boa noite",
-        "intent": "PROPOSTA",
-        "entities": []
       },
       {
         "text": "o que eu posso oferecer é r$ 45.000,00 reais no dinheiro",
@@ -1450,29 +1559,18 @@
             "end": 85,
             "value": "48 vezes",
             "entity": "PARCELAS"
-          }
-        ]
-      },
-      {
-        "text": "aceita troca num ford ka 2009 + banco de couro? e mais 9 mil na mão.  restante financiado. sou de outra cidade, interior de mg , cataguases.  estou disposta a negociar.",
-        "intent": "PROPOSTA",
-        "entities": [
+          },
           {
-            "start": 55,
-            "end": 60,
-            "value": "9 mil",
-            "entity": "VALOR_MONETARIO"
+            "start": 112,
+            "end": 122,
+            "value": "94890-8911",
+            "entity": "TELEFONE"
           }
         ]
       },
       {
         "text": "bom dia, pagamento à vista consigo mais algum desconto",
         "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "proposta com troca, um sandero 2011/2011 1.0 16v completo e o restante financiado",
-        "intent": "FINANCIAMENTO",
         "entities": []
       },
       {
@@ -1483,28 +1581,6 @@
       {
         "text": "bom dia... existe a possibilidade em troca de veiculo ???",
         "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "olá, bruno tenho um cielo sedan 2011  para entrada e financiar em 36x, pode ser?? foi a melhor informação de um veículo q já li na minha vida.  fixo- 5897-9911",
-        "intent": "FINANCIAMENTO",
-        "entities": [
-          {
-            "start": 66,
-            "end": 69,
-            "value": "36x",
-            "entity": "PARCELAS"
-          }
-        ]
-      },
-      {
-        "text": "bom dia! pega um vectra 97 na troca?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "tenho interesse no veiculo, porem tenho um carro voyage 1.0 trend para dar na troca ano 2010/2011 quais são as propostas 78.000km rodados. só não tem ar condicionado otimo estado de conservação unico dono, qual seria o valor de troca, sou de joão pinheiro aguardo resposta.",
-        "intent": "PROPOSTA",
         "entities": []
       },
       {
@@ -1705,9 +1781,16 @@
         "entities": []
       },
       {
-        "text": "bom dia! aceita r$ 100.000,00? obrigado, rodrigo",
+        "text": "bom dia! aceita r$ 100.000,00 ? obrigado, rodrigo",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "100.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "gostaria de saber mais sobre a forma de pagamento?",
@@ -1726,11 +1809,6 @@
       },
       {
         "text": "ola gostaria de saber qual o minimo que faz neste carro",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "aceita troca? financia por qual banco?",
         "intent": "DUVIDA",
         "entities": []
       },
@@ -1781,11 +1859,6 @@
       },
       {
         "text": "boa noite!  me interessei no veiculo, qual o menor valor avista",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "gostaria de saber se pega um nissan sentra 2006 completo automatico na troca.",
         "intent": "DUVIDA",
         "entities": []
       },
@@ -1860,11 +1933,6 @@
         "entities": []
       },
       {
-        "text": "vocês aceitam veículo no negócio??? tenho interesse no carro",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "qual menor preço possivel a vista? obrigado",
         "intent": "DUVIDA",
         "entities": []
@@ -1875,27 +1943,12 @@
         "entities": []
       },
       {
-        "text": "gostaria de saber se vc faz troca tbm, tenho uma uno 2011,básica com gnv.",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "tem sentral multimídia",
         "intent": "DUVIDA",
         "entities": []
       },
       {
-        "text": "vcs aceitam usado na troca?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "prezado, esta pajero é a de 05 ou 07 lugares?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "vc consegue melhorar esse preço avista?",
         "intent": "DUVIDA",
         "entities": []
       },
@@ -1910,23 +1963,8 @@
         "entities": []
       },
       {
-        "text": "boa tarde pega um onix 13/13 na troca",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "tenho um celta 2011 completo 4 portas spirit. quanto ficaria dando ele de entrada ?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "gostaria de saber a km do veiculo e como faço para ver o carro ?",
         "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "boa tarde, aceita uma strada 2012? o restante em dinheiro",
-        "intent": "PROPOSTA",
         "entities": []
       },
       {
@@ -1945,26 +1983,6 @@
         "entities": []
       },
       {
-        "text": "ola gostaria de saber por qto entra meu carro eu tenho um ford fiesta muito completo hatch class 1.0 ano 2011 prata sou segundo dono manual chave reserva pneus novos na troca por este livina preferia receber msn no meu e mail obrigado",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "ola, gostaria de saber se aceitam um uno mille economy 1.0, duas portas basico com 102.000 km como entrada ?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "amigo, pega um civic lxs  aut. 2008 no negocio?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "aceita um honda city 2012 automático na troca?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "quais critérios e valores p financiamento total deste automóvel?",
         "intent": "DUVIDA",
         "entities": []
@@ -1975,32 +1993,7 @@
         "entities": []
       },
       {
-        "text": "qual a avaliação aproximada de um clio sedan 07/08 1.0 16v hi-flex e gnv para troca nesse sandero?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "oi tenho uma passat wariant 2010 tsi turbo, nova quanto de volta? mauro",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "bom dia aceita troca, tenho uma santa fe gls 3.5 vc tiptronic, 2012",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "bom dia , aceita veiculo como parte de pagamento ?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "boa tarde ,vc pega um gol g3 como entrada?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "boa tarde. você pega um gol 91/92 na troca  gol motor cht 1.6 novo lataria todo alinhado no mesmo valor . novo .",
         "intent": "DUVIDA",
         "entities": []
       },
@@ -2015,38 +2008,13 @@
         "entities": []
       },
       {
-        "text": "tenho um palio completo motor fire 2008 finaciado em 48 falta 23 quanto paga na troca da saveiro",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "tenho tiguan branca, teto, 2013 unico dono. aceita na troca",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "bom dia tenho uma ranger xlt 2008/09 4x4 diesel tem interesse em troca",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "tenho um idea 2013 automatizado vocês trocam?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "esse onix tem ar quente e ar condicionado?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "bom dia tenho uma ranger xlt 2008/09 4x4 diesel tem interesse em troca",
         "intent": "DUVIDA",
         "entities": []
       },
       {
         "text": "bom dia, me intereso pelo veiculo qual a forma de fianciamento ?",
-        "intent": "DUVIDA",
+        "intent": "FINANCIAMENTO",
         "entities": []
       },
       {
@@ -2055,17 +2023,7 @@
         "entities": []
       },
       {
-        "text": "tenho um celta 2012 ls  aceita troca?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "boa tarde! aceita carta de crédito contemplada de consórcio da disal?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "qual o km do carro? vocês aceitam troca em um uno mille way economy 2 portas 2011/2012?",
         "intent": "DUVIDA",
         "entities": []
       },
@@ -2082,7 +2040,14 @@
       {
         "text": "me chama no whatsapp (11) 98304-7190 leandro",
         "intent": "CONTATO",
-        "entities": []
+        "entities": [
+          {
+            "start": 21,
+            "end": 36,
+            "value": "(11) 98304-7190",
+            "entity": "TELEFONE"
+          }
+        ]
       },
       {
         "text": "liguem hoje",
@@ -2097,7 +2062,14 @@
       {
         "text": "39512634 helinaldo",
         "intent": "CONTATO",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "39512634",
+            "entity": "TELEFONE"
+          }
+        ]
       },
       {
         "text": "queria marcar mais informações sobre o veiculo pode entrar em contato",
@@ -2112,7 +2084,14 @@
       {
         "text": "bom dia poderia me mandar fotos no wats (11) 964516815 obrigado",
         "intent": "CONTATO",
-        "entities": []
+        "entities": [
+          {
+            "start": 40,
+            "end": 54,
+            "value": "(11) 964516815",
+            "entity": "TELEFONE"
+          }
+        ]
       },
       {
         "text": "estou pesquisando o melhor custo x beneficio do sentra. você fecha negócio por r$35.000? já tenho crédito aprovado no itaú. aguardo retorno para agendar visita para conhecer o veiculo e tomar decisão de compra.",
@@ -2122,7 +2101,14 @@
       {
         "text": "quero mais detalhes - aguardo watzap 0610984261427",
         "intent": "CONTATO",
-        "entities": []
+        "entities": [
+          {
+            "start": 37,
+            "end": 50,
+            "value": "0610984261427",
+            "entity": "TELEFONE"
+          }
+        ]
       },
       {
         "text": "quero mais detalhes - aguardo watzap 0610984261427",
@@ -2132,17 +2118,14 @@
       {
         "text": "boa noite  gostaria de mais informaçoes meu  11 9 9606 1500 daniel",
         "intent": "CONTATO",
-        "entities": []
-      },
-      {
-        "text": "boa noite. gostaria de estudar uma proposta de troca por um mille way 4p celebration 2007, e diferença à vista. whatsapp (24) 99263-6742",
-        "intent": "CONTATO",
-        "entities": []
-      },
-      {
-        "text": "tenho um gol 2010 se aseitar e querer finansiar direto com vcs dou 2800 por mes fizemo comtrato  tudo sertinho se enteresa entrar em contato 55996037679",
-        "intent": "CONTATO",
-        "entities": []
+        "entities": [
+          {
+            "start": 45,
+            "end": 59,
+            "value": "11 9 9606 1500",
+            "entity": "TELEFONE"
+          }
+        ]
       }
     ]
   }
