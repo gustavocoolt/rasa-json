@@ -4,6 +4,10 @@
       {
         "name": "valor_monetario",
         "pattern": "[0-9]{1,2}\\.[0-9]{3}(\\,[0-9]{2})"
+      },
+      {
+        "name": "cpf",
+        "pattern": "([0-9]{2}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[-]?[.]?[0-9]{2})"
       }
     ],
     "entity_synonyms": [
@@ -2895,6 +2899,240 @@
         "text": "voce vende por 30.000?",
         "intent": "PROPOSTA",
         "entities": []
+      },
+      {
+        "text": "r$ 8.000,00 de entrada cpf 009.219.027-86",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "009.219.027-86",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "r$ 10.000,00 de entrada cpf 009.219.027-86",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "009.219.027-86",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "olá. gostaria de saber quanto fica o valor da prestação, financiado em 48x com r$ 9.000,00 de entrada. cpf 362.748.508-48 17/03/1987",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 82,
+            "end": 90,
+            "value": "9.000,00",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 107,
+            "end": 121,
+            "value": "362.748.508-48",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "boa noite , consegue fazer um pre aprovacao ? tenho 4 mil de entrada parcela em 36 ou 48 . cpf : 40911280847  data de nascimento : 29/01/1993",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 52,
+            "end": 57,
+            "value": "4 mil",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 97,
+            "end": 108,
+            "value": "40911280847",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "fiquei interessado no carro tenho 3.000  para da de entrada, cpf 04415928137 nascido em 05/08/1993. qualquer coisa tentarei tira no nome da minha mãe.",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 65,
+            "end": 76,
+            "value": "04415928137",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "12000 de entrada. cpf 13235555609",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "13235555609",
+            "entity": "CPF"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "12000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "boa tarde. estou interessado no veiculo, e pretendo financia. tenho o valor de r$ 10.000,00 de entrada. qual seria a proposta. meu cpf 35912440826",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 82,
+            "end": 91,
+            "value": "10.000,00",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 135,
+            "end": 146,
+            "value": "35912440826",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "por  favor consulte o meu cpf 03762684847 , e ver se da o financiamento",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 30,
+            "end": 41,
+            "value": "03762684847",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "bom dia! me interessei pelo carro, gostaria de saber se eu dando entrada de r $ 5.000 , quanto ficaria financiado o restante?  cpf 122.957.117.54",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 80,
+            "end": 85,
+            "value": "5.000",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 131,
+            "end": 145,
+            "value": "122.957.117.54",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "favor simular o financiamento meu cpf 01207821896 e celular 19 997955259 luiz",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 38,
+            "end": 49,
+            "value": "01207821896",
+            "entity": "CPF"
+          },
+          {
+            "start": 60,
+            "end": 72,
+            "value": "19 997955259",
+            "entity": "TELEFONE"
+          }
+        ]
+      },
+      {
+        "text": "entrada de r$ 3.000 enquanto ficariam as parcelas em 48x? segue meu cpf 029.186.439-20 data de nascimento 11.09.1976, para uma eventual consulta! fico no aguardo! meu cel. (41) 98835-07229 (whatsapp)",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "3.000",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 72,
+            "end": 86,
+            "value": "029.186.439-20",
+            "entity": "CPF"
+          },
+          {
+            "start": 172,
+            "end": 188,
+            "value": "(41) 98835-07229",
+            "entity": "TELEFONE"
+          }
+        ]
+      },
+      {
+        "text": "quero financiar dando 13mil de entrada! meu cpf 02460745583",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "13mil",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 48,
+            "end": 59,
+            "value": "02460745583",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "financiamento deste carro com entrada de 4000,00 cpf 02422248900 retorno por whats",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 53,
+            "end": 64,
+            "value": "02422248900",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "bom dia! me interessei pelo veiculo, gostaria de dar entrada de r$ 4.000 e financiar o restante. minha data de nascimento e 02/05/1987, cpf 12295711754",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 140,
+            "end": 151,
+            "value": "12295711754",
+            "entity": "CPF"
+          }
+        ]
+      },
+      {
+        "text": "olá, quais são as condições para financiamento com entrada de mais ou menos 3.000,00 em 48x. qual a taxa?  caso precise do meu cpf 401.608.628-09",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 131,
+            "end": 145,
+            "value": "401.608.628-09",
+            "entity": "CPF"
+          }
+        ]
       }
     ]
   }
