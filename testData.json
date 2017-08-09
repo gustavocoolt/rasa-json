@@ -956,7 +956,14 @@
       {
         "text": "bom dia, dando 6000,00 de entrada, como ficariam as parcelas. favor verificar no satander grato carlos",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "6000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "60× e qual o mínimo de entrada?",
@@ -1009,6 +1016,12 @@
             "end": 85,
             "value": "48x",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 93,
+            "end": 107,
+            "value": "395.128.338-67",
+            "entity": "CPF"
           }
         ]
       },
@@ -1198,6 +1211,12 @@
             "end": 78,
             "value": "36x",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "value": "15 mil",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -1271,7 +1290,14 @@
       {
         "text": "boa tarde. tenho 5mil de entrada e não posso pagar mais q 720 reais de parcela. qual seria a possibilidade de aquisição!",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "5mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "oi, estou interessado neste veículo, e dou 4.000,00 r$ de entrada. com esse valor de entrada ficaria de quanto as parcelas em 48x ?",
@@ -1384,7 +1410,14 @@
       {
         "text": "com 9mil de entrada como ficaria as parcelas?",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "9mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "gostaria de saber o valor de entrada",
@@ -1394,7 +1427,14 @@
       {
         "text": "quero financiar com entrada de até 10 mil",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "10 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "olá com entrada de 5 mil quanto ficaria o financiamento?",
@@ -1420,6 +1460,12 @@
             "end": 72,
             "value": "48x",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "10 mil",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -1432,6 +1478,12 @@
             "end": 33,
             "value": "48 x",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "7.000",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -1450,7 +1502,14 @@
       {
         "text": "quero ver o valor com entrada de 3.000",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "3.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "60% de entrada restante financiado",
@@ -1472,7 +1531,14 @@
       {
         "text": "entrada de 2 mil reais",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "2 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "olá tenho 12.000 para dar e financiar o resto.quanto fica com o computador de bordo.",
@@ -1493,6 +1559,12 @@
             "end": 34,
             "value": "60x",
             "entity": "PARCELAS"
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "5 mil",
+            "entity": "VALOR_MONETARIO"
           }
         ]
       },
@@ -1728,7 +1800,14 @@
       {
         "text": "aceita troca  honda civic lxr 2.0 completo 13/14",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 43,
+            "end": 48,
+            "value": "13/14",
+            "entity": "ANO"
+          }
+        ]
       },
       {
         "text": "qual menor preço que da pra fazer neste carro e onde posso ver?",
@@ -1895,7 +1974,14 @@
       {
         "text": "13/13? qual km? qts lugares",
         "intent": "DUVIDA",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "13/13",
+            "entity": "ANO"
+          }
+        ]
       },
       {
         "text": "boa tarde! qual a km do carro?",
@@ -2005,7 +2091,14 @@
       {
         "text": "quanto quer a vista no a3 1.8 20v turbo 2003? sou de pinheiral -rj. interior. região sul fluminense.",
         "intent": "DUVIDA",
-        "entities": []
+        "entities": [
+          {
+            "start": 40,
+            "end": 44,
+            "value": "2003",
+            "entity": "ANO"
+          }
+        ]
       },
       {
         "text": "esse onix tem ar quente e ar condicionado?",
@@ -2111,11 +2204,6 @@
         ]
       },
       {
-        "text": "quero mais detalhes - aguardo watzap 0610984261427",
-        "intent": "CONTATO",
-        "entities": []
-      },
-      {
         "text": "boa noite  gostaria de mais informaçoes meu  11 9 9606 1500 daniel",
         "intent": "CONTATO",
         "entities": [
@@ -2126,6 +2214,687 @@
             "entity": "TELEFONE"
           }
         ]
+      },
+      {
+        "text": "bom dia gostaria de receber uma simulação de financiamento, com entrada de 6000 e saldo em 36 e 48 x att, fernando",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 96,
+            "end": 100,
+            "value": "48 x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "7.000 de entrada restante em 36 x",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "7.000",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "36 x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "entrada de 7,000 e financiar o restante.",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "7,000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "qual a kilometragem?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ola gostaria de saber uma simulação de financiamento do veiculo se eu der 13000 de entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 74,
+            "end": 79,
+            "value": "13000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "ola tenho 15 mil pra dar entrada e quero ver como fica o restante finaciado em 24 vezes",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "15 mil",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 79,
+            "end": 87,
+            "value": "24 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "onde você fica situado",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "manda msg por whatsapp",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "com quantos km esse carro está",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostei do carro. tenho 21mil de entrada como podemos fazer essa compra. obrigado",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "21mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "entrada 10.000,00 36x 400",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "10.000,00",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "36x",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "400",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "ola gostei bastante do veiculo gostaria  dE saber se é  possivel a compra  com uma entrada de 2 mil reais",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 94,
+            "end": 99,
+            "value": "2 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "bom dia! qual valor a vistinha. e vcs entregam em outra cidade?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "15.000,00 pra fechar negocio?",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "15.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "tem fotos desse carro?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia solicito financiamento desse veiculo pelo itau grata",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "entrada 6mil 48x de quanto",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "esta disponível tem foto?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber sobre o financiamento desse carro, como ficaria com um entrada de 7 mil e o restante em 48 parcelas e com 36 parcelas?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 84,
+            "end": 89,
+            "value": "7 mil",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 106,
+            "end": 117,
+            "value": "48 parcelas",
+            "entity": "PARCELAS"
+          },
+          {
+            "start": 124,
+            "end": 135,
+            "value": "36 parcelas",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "qual a km?  ele tem kit gás?   vistoria 2017?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quero saber mais sobre o veículo. me passe seu telefone por e-mail para contato que após minha reunião ligarei para o vendedor.",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "bom dia !  é possível aprovar ficha ou fazer uma simulação. gostei muito do carro",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "aceita usado com forma de entrada?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia! o carro ainda está disponível?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "como fica 48 vezes sem entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "48 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "qual a forma  de pagamento e em quantas vezes?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "como funciona o financiamento?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "telefone com whatsapp para contato?",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "bom dia sou revendedor gostaria de saber se vc consegue fazer 39,000.00",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 62,
+            "end": 71,
+            "value": "39,000.00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "fecha o valor de 40900 ? se sim favor me ligar para fecharmos negócio.",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "40900",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "faz 30.000,00",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago r$ 97.000,00 no dinheiro.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "bom dia! quero mais informação sobre este carro. ele já sofreu alguma batida?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de saber o orçamento e opções de pagamento..  att, murillo agues",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "quanto ficaria o financiamento com 10mil de entrada!",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "10mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "onde está esse carro p/ eu poder vê-lo?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "queria financiar ele em 48× precisa quanto de entrada?.",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "olá tenho interesse nesse gostaria  uma simulação",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "bom dia. gostaria de saber se esse veículo está disponível?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ja vendeu o celta?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "r$ 4.000 de entrada, quanto ficaria em 24x e 36x o restante?",
+        "intent": "",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "4.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "aguardo o contato pois estou próximo de concretizar a pesquisa.",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "bom dia, esse veículo tem banco de couro?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia meu amigo, gostaria de uma simulacao, dando uma entrada de 10.000,00 , por quanto ficariam as parcelas?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 67,
+            "end": 76,
+            "value": "10.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "gostaria de saber as taxas de financiamento.",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "bom dia! tenho 14 mil à vista.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "bom dia! pode me enviar mais fotos do fusion?  me interessei em compra-lo.  47 - 992549086 . obrigado.",
+        "intent": "CONTATO",
+        "entities": [
+          {
+            "start": 76,
+            "end": 90,
+            "value": "47 - 992549086",
+            "entity": "TELEFONE"
+          }
+        ]
+      },
+      {
+        "text": "quero saber se o carro é de leilão ou recuperado de seguradora",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "se está em boas condições e ipva pago",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom. dia será posivel 24000",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "24000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "19.000 a vista ??",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "19.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "bom dia, eu tenho interesse no seu carro . como podemos agendar horario? obrigada",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "podemos fechar por r$ 80 mil ?",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "80 mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "qual o telefone da loja?",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "bom dia, vc poderia me adicionar no whatsapp e enviar fotos ?",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "aceita cartao de credito?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "48x sem entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "48x",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "boa noite tudo bem 22.000,00  em dinheiro voce me vende ele ?",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "22.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "oi boa noite amigo tou enteresado no carro da prá fechar em quinze mil ?",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 60,
+            "end": 70,
+            "value": "quinze mil",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "boa noite,gostaria de saber como funciona a parte de financiamento , quanto de parcelas , quanto de entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "qual o valor dela avista ? no dinheiro",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ola, pode financiar ou apenas a vista? obrigado.",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "44.000 na mao, tem conversa ?",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "44.000",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "faz 75 nesse carro?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "faz 67 nesse carro?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pago 33,500 a vista",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "33,500",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "boa noite faz 40000",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "gostaria de mais informações sobre o carro",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa noite! qual o mínimo para fechar? abraços",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "faz 30 nesse carro",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "estou procurando um carro nessas condições  e gostaria de saber a parte de financiamento com uma entrada de 20,000,00 e o restante em 36 vezes .",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 108,
+            "end": 117,
+            "value": "20,000,00",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 134,
+            "end": 142,
+            "value": "36 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "boa noite qual o minimo que faz ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "essse seu melhor preço a vista ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quais os opcionais ? 8v ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quanto tempo de garantia",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "me interessei no veículo, e gostaria de agendar uma visita....",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "faz 52",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "pode me chamar no zap 979917596",
+        "intent": "CONTATO",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "979917596",
+            "entity": "TELEFONE"
+          }
+        ]
+      },
+      {
+        "text": "para as parcelas ficarem de 800  teria de dar +- quanto de entrada",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "800",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "quanto fica ele financiado",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "aceita troca ou só venda?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "olá, prezados. aceitam o valor de 31 mil à vista no etios? caso positivo irei segunda-feira para fechar o carro com vocês. aguardo contato por whatsapp: 98869-7827 (amaury) att.",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "31 mil",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 153,
+            "end": 163,
+            "value": "98869-7827",
+            "entity": "TELEFONE"
+          }
+        ]
+      },
+      {
+        "text": "gostaria de verificar possibilidade de financiamento com 5 mil de entrada. aguardo retorno.",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "ola amigo queria saber se o carro e recuperado?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "olá me mandem zap interesso",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "voce vende por 30.000?",
+        "intent": "PROPOSTA",
+        "entities": []
       }
     ]
   }
