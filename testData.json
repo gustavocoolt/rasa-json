@@ -121,9 +121,16 @@
         ]
       },
       {
-        "text": "olá consigo chegar em 22.000,00.",
+        "text": "olá consigo chegar em 22.000,00 .",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "22.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "ola, carro que encontrei tenho interesse , trabalho com veículos, sou revendedor pago avista no ato o seu carro, você consegue chega em 22.000 minha oferta !!!!",
@@ -164,7 +171,14 @@
       {
         "text": "entrega por 20.000,00?",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "20.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "faz 27.000 ?",
@@ -215,7 +229,14 @@
       {
         "text": "pagamento  a vista. 15.000,00",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "15.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "bom dia. consegue chegar nos 46 mil à vista?",
@@ -268,7 +289,14 @@
       {
         "text": "ofereço 14.000,00 no dinheiro",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "14.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "fecha por 24.000 à vista ?",
@@ -309,7 +337,14 @@
       {
         "text": "pagamento à vista. valor da proposta r$ 37.500,00",
         "intent": "PROPOSTA",
-        "entities": []
+        "entities": [
+          {
+            "start": 40,
+            "end": 49,
+            "value": "37.500,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "boa tarde. negociamos em cima de 55900 ?",
@@ -403,21 +438,35 @@
       {
         "text": "ofereço 50.000,00",
         "intent": "PROPOSTA",
-        "entities": []
-      },
-      {
-        "text": "proposta de 63.000,00",
-        "intent": "PROPOSTA",
-        "entities": []
-      },
-      {
-        "text": "ola até 26000.000 podemos conversar",
-        "intent": "PROPOSTA",
         "entities": [
           {
             "start": 8,
             "end": 17,
-            "value": "26000.000",
+            "value": "50.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "proposta de 63.000,00",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "63.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
+      },
+      {
+        "text": "ola até 26000.00 podemos conversar",
+        "intent": "PROPOSTA",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "26000.00",
             "entity": "VALOR_MONETARIO"
           }
         ]
@@ -1007,7 +1056,14 @@
       {
         "text": "olá, tenho 15.000,00 de entrada quanto ficaria o resto",
         "intent": "FINANCIAMENTO",
-        "entities": []
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "15.000,00",
+            "entity": "VALOR_MONETARIO"
+          }
+        ]
       },
       {
         "text": "quero dar 15 mil de entrada. consegue deixar as parcelas em 1200,00",
