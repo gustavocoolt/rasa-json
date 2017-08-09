@@ -2078,6 +2078,71 @@
         "text": "bom dia. ele não tem vidro elétrico?",
         "intent": "DUVIDA",
         "entities": []
+      },
+      {
+        "text": "me chama no whatsapp (11) 98304-7190 leandro",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "liguem hoje",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "bom dia, tenho uma ficha aprovada de 55000,00 tem interesse?",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "39512634 helinaldo",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "queria marcar mais informações sobre o veiculo pode entrar em contato",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "receber ligação, minha compra serra a vista, e por favor me mande o contato de alguem que possa negiociar",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "bom dia poderia me mandar fotos no wats (11) 964516815 obrigado",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "estou pesquisando o melhor custo x beneficio do sentra. você fecha negócio por r$35.000? já tenho crédito aprovado no itaú. aguardo retorno para agendar visita para conhecer o veiculo e tomar decisão de compra.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "quero mais detalhes - aguardo watzap 0610984261427",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "quero mais detalhes - aguardo watzap 0610984261427",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "boa noite  gostaria de mais informaçoes meu  11 9 9606 1500 daniel",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "boa noite. gostaria de estudar uma proposta de troca por um mille way 4p celebration 2007, e diferença à vista. whatsapp (24) 99263-6742",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "tenho um gol 2010 se aseitar e querer finansiar direto com vcs dou 2800 por mes fizemo comtrato  tudo sertinho se enteresa entrar em contato 55996037679",
+        "intent": "CONTATO",
+        "entities": []
       }
     ]
   }
