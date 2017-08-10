@@ -2463,11 +2463,6 @@
         "entities": []
       },
       {
-        "text": "como funciona o financiamento?",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "telefone com whatsapp para contato?",
         "intent": "CONTATO",
         "entities": []
@@ -2555,7 +2550,7 @@
       },
       {
         "text": "r$ 4.000 de entrada, quanto ficaria em 24x e 36x o restante?",
-        "intent": "",
+        "intent": "FINANCIAMENTO",
         "entities": [
           {
             "start": 3,
@@ -2644,11 +2639,6 @@
         ]
       },
       {
-        "text": "bom dia, eu tenho interesse no seu carro . como podemos agendar horario? obrigada",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
         "text": "podemos fechar por r$ 80 mil ?",
         "intent": "PROPOSTA",
         "entities": [
@@ -2718,11 +2708,6 @@
       },
       {
         "text": "qual o valor dela avista ? no dinheiro",
-        "intent": "DUVIDA",
-        "entities": []
-      },
-      {
-        "text": "ola, pode financiar ou apenas a vista? obrigado.",
         "intent": "DUVIDA",
         "entities": []
       },
