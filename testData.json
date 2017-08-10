@@ -7,7 +7,7 @@
       },
       {
         "name": "cpf",
-        "pattern": "([0-9]{2}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[-]?[.]?[0-9]{2})"
+        "pattern": "([0-9]{2}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[-]?[.]?[0-9]{2})"
       }
     ],
     "entity_synonyms": [
@@ -3118,6 +3118,206 @@
             "entity": "CPF"
           }
         ]
+      },
+      {
+        "text": "eu quero saber o preço do novo celta, 2017. vou comprar a vista, não quero financiamento.             meu nome cleonice de assunção",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "bom dia... gostei muito do seu carro, você aceita eu financiar no meu banco.?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "olá bom dia ! tenho interesse no carro, favor entrar em contato comigo através do meu whatsapp. obrigada",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "se houver interesse na proposta de r$ 95.000,00 favor entrar em contato, tenho para transação imediata.",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "ola bom dia podemos financiar esse valo?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "tem a possibilidade de fazer no valor de r$7.500",
+        "intent": "PROPOSTA",
+        "entities": []
+      },
+      {
+        "text": "posso financiar o valor do carro todo",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "por gentileza entrar em contato por e-mail, com uma proposta para compra a vista. obrigada.",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "estou interessado entre em contato comigo por favor obrigado",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "revisões todas feitas na concessionária?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "boa noite, tem como financiar?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "qual a taxa de juros? vocês trabalham com o santander?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "poderia passar fotos do veículo para eu avaliar?",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "bom dia ! qual o numero do telefone para falar com vocês",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "1000 reais mais 48 vezes ficaria quanto mensais ?",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1000 reais",
+            "entity": "VALOR_MONETARIO"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "48 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "ola amigo uma pergunta quantos litros e o porta mala do cerato",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ola voces aceitam carta de credito contemplada ?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "tem direçao hidraulica",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "quero financia em 48 vezes",
+        "intent": "FINANCIAMENTO",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "48 vezes",
+            "entity": "PARCELAS"
+          }
+        ]
+      },
+      {
+        "text": "olá... o carro é completo?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ola, gsotaria de saber mais siobre este carro, por favor, me chame zap 11 98702 2000",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "tenho interesse nesse veiculo. aguardo contato",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "quero financiar pelo banco itaú",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "consigo financiar com score baixo?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "amigo você tem fotos da van, favor enviar",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "fiquei intereçado tem como me ligar",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "manda as informaçoes via zap pra este celuar a cima",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "ela e 5 passageiros?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "ainda esta ai gostaria de saber sap 979723054",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "se tiver o carro em estoque entre em contato",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "manda uma simulação pra mim?",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "qtos km? revisoes em autorizada?",
+        "intent": "DUVIDA",
+        "entities": []
+      },
+      {
+        "text": "oi fas preco melhor  me ligue",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "gostaria de comprar um carro financiado...",
+        "intent": "FINANCIAMENTO",
+        "entities": []
+      },
+      {
+        "text": "boa tarde, estou interessado no seu carro, se ainda estiver vendendo ligue para esse numero (21) 7815-0124  pode ser ligação a cobrar se preferir , tratar com o ricardo, as chances são grandes de você vender. vou ao local, segurança e rapidez.",
+        "intent": "CONTATO",
+        "entities": []
+      },
+      {
+        "text": "quero financiar!",
+        "intent": "FINANCIAMENTO",
+        "entities": []
       }
     ]
   }
